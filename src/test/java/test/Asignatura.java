@@ -1,5 +1,4 @@
 package test;
-
 public class Asignatura {
 
     public String nombre;
@@ -34,7 +33,6 @@ public class Asignatura {
         this.tipo = tipo;
     }
 
-
     public void cambiarDatos(int codigoExterno) {
         this.codigoExterno = codigoExterno;
     }
@@ -46,7 +44,7 @@ public class Asignatura {
     public void setCodigoInterno(int codigoInterno) {
         this.codigoInterno = codigoInterno;
     }
-    
+
     public void setCodigoInterno(double codigoInterno) {
         this.codigoInterno = (int) codigoInterno;
     }
